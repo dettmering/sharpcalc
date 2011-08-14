@@ -1,0 +1,84 @@
+/*
+CSS file for The GSI Scientific Calculator
+written by Till Dettmering (t.dettmering a gsi.de)
+*/
+
+body {
+	font-family: 'Lucida Grande', helvetica, sans-serif;
+	line-height: 140%;
+}
+
+hr {
+	display: none;
+}
+
+h1 {
+	font-weight: normal;
+	color: #444;
+}
+
+h2 {
+	font-weight: normal;
+	color: #888;
+	margin-top: -10px;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+}
+
+table {
+	margin: 0;
+	padding: 0;
+}
+
+td {
+	padding-right: 3px;
+	padding-bottom: 3px;
+}
+
+input {
+	text-align: right;
+	font-size: 16px;
+}
+
+
+/* Special */
+
+a:hover {
+	text-decoration: underline;
+}
+
+#container {
+	margin: 80px;
+}
+
+#links {
+	margin-left: 0px;
+}
+
+#inout {
+	margin-left: 0px;
+}
+
+.outname {
+	font-weight: bold;
+}
+
+.result {
+	color: #000;
+	padding-right: 5px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.unit {
+	color: #888;
+}
+
+.contact {
+	margin-left: 0px;
+	font-size: 11px;
+	color: #aaa;	
+}
