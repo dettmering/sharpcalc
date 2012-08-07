@@ -10,7 +10,7 @@
 		<h1>The GSI Scientific Calculator</h1>
 		<div id="links">
 		<?php
-		$real_path = realpath ( './' );
+		$real_path = realpath ( './mod/' );
 		$dir_handle = opendir($real_path); 
 		
 		while ($file = readdir($dir_handle)) 
@@ -18,7 +18,7 @@
   	  			if(substr($file,-7,-4) == 'mod')
 				{	
 					$prefix=substr($file, 0, -8);
-					@include($file);
+					@include('mod/' . $file);
 			
 					echo '<a class="link" href="calc.php?a=' . $prefix . '">' . $name . '</a><br />';
 				}

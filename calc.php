@@ -3,7 +3,7 @@ session_start();
 
 if (isset($_REQUEST['a'])) $_SESSION['a'] = $_REQUEST['a'];
 
-@include $_SESSION['a'] . '.mod.php'; ?>
+@include 'mod/' . $_SESSION['a'] . '.mod.php'; ?>
 
 <html>
 	<head>
