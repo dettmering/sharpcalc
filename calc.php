@@ -17,8 +17,7 @@ if (isset($_REQUEST['a'])) $_SESSION['a'] = $_REQUEST['a'];
 	<h2><?php echo $name; ?></h2>
 
 	<body>
-		<div class="texformula"><?php if ($formula) { echo '\\(' . $formula . '\\)'; } 
-?></class>
+		<div class="texformula"><?php if ($formula) { echo '\\(' . $formula . '\\)'; } ?></div>
 		<form method="get" action="calc.php">
 		<div id="inout">
 		<table>
