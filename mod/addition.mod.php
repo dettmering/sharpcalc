@@ -8,6 +8,8 @@ $in_name[2] = 'B'; $in_unit[2] = 'Einheit';
 //Algorithm
 
 $out[1] = $in[1] + $in[2];
-$out_name[1] = 'A + B'; $out_unit[1] = 'Einheit';
+$formula = 'A + B = C';
+
+$out_name[1] = 'C'; $out_unit[1] = 'Einheit';
 
 ?>
