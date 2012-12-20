@@ -40,7 +40,7 @@ if (isset($_REQUEST['a'])) $_SESSION['a'] = $_REQUEST['a'];
 
 			for ($n = 1; $n <= $n_out; $n++)
 			{
-				echo '<tr><td><span class="outname">' . $out_name[$n] . '</span></td><td class="result"><span>' . $out[$n] . '</span></td><td><span class="unit">' . $out_unit[$n] . '</span></td></tr>';
+				echo '<tr><td><span class="outname">' . $out_name[$n] . '</span></td><td class="result"><input type="text" name="out[' . $n .']" value="' . $out[$n] . '" readonly></td><td><span class="unit">' . $out_unit[$n] . '</span></td></tr>';
 			} 
 
 			echo '</div>';
