@@ -28,7 +28,7 @@ a {
 	text-decoration: none;
 }
 
-tableÂ {
+table {
 	margin: 0;
 	padding: 0;
 }
@@ -60,6 +60,7 @@ a:hover {
 
 #inout {
 	margin-left: 0px;
+	margin-top: 10px;
 }
 
 .outname {

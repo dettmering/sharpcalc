@@ -17,6 +17,7 @@ if (isset($_REQUEST['a'])) $_SESSION['a'] = $_REQUEST['a'];
 	<h2><?php echo $name; ?></h2>
 
 	<body>
+		<iv class="texformula"><?php if ($formula) { echo '\\(' . $formula . '\\)'; } ?></class>
 		<form method="get" action="calc.php">
 		<div id="inout">
 		<table>
@@ -25,7 +26,6 @@ if (isset($_REQUEST['a'])) $_SESSION['a'] = $_REQUEST['a'];
 			$n_out = count($out);
 
 			echo '<div id="in">';
-			
 
 			for ($n = 1; $n <= $n_in; $n++)
 			{
