@@ -28,7 +28,7 @@
 		?>
 		</div>
 		<hr />
-		<span class="contact">written by Till Dettmering at GSI (<a href="mailto:t.dettmering@gsi.de">contact</a>)</span>
+		<span class="contact">written by Till Dettmering at GSI (<a href="mailto:tilldettmering@gmail.com">contact</a>). <a href="https://github.com/dettmering/sharpcalc/">Fork on GitHub!</a></span>
 		</div>
 	</body>
 </html>
